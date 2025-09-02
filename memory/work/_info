@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/leeke/Documents/memory
+vmem
+Z1 !s110 1756808890
+!i10b 1
+!s100 ^84Em>mOKzzZb89d0jn5n1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IB:VfJHDV6g@2ON6j8DS?32
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1756807343
+8mem.v
+Fmem.v
+!i122 6
+L0 1 43
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1756808890.000000
+!s107 mem.v|tb.v|
+Z6 !s90 -reportprogress|300|tb.v|
+!i113 1
+Z7 tCvgOpt 0
+vtb
+R1
+!i10b 1
+!s100 LBkNX@zY;>8>[]g5FDcl40
+R2
+I?nUf><EV>E8H>T9T:MIO?1
+R3
+R0
+w1756808878
+8tb.v
+Ftb.v
+!i122 6
+L0 2 77
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 mem.v|tb.v|
+R6
+!i113 1
+R7
