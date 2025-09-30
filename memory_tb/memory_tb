@@ -1,0 +1,49 @@
+// memory test cases
+	-->1wr_1rd
+	-->5wr_5rd
+	--> fd_wr_fd_rd
+	--> bd_wr_bd_rd
+	--> fd_wr_bd_rd
+	--> bd_wr_fd_rd
+	--> 1st_quator wr_rd
+	--> 2nd_quator wr_rd
+	--> 3rd_quator wr_rd
+	--> 4th_quator wr_rd
+	--> consecutive wr_rd
+
+// limitation or drawback of front door access 
+
+
+// memory backdoor access
+	--> it is only applicable for simulation purpose 
+	--> In back door access we will directly target the memory for loading and retriving the data 
+	--> all the loading and retriving will be happened at 0 time units 
+	for backdoor access we have some system task and function 
+		
+		1. $readmemh 
+			--> it is used to load/writes the hexadecimal data into the memory 
+				
+					syntax:
+						$readmemh("input.hex",<target the memory>);
+
+		2. $writememh 
+			--> it is used to retrive/read the hexa decimal data from the memory 
+					syntax: 
+						$writememh("output.hex",<target the memory>)
+
+		3. $readmemb
+			--> it is used to load/ write the binary data into the memory 
+					syntax: 
+						$readmemb("input.bin",<target the memory>)
+				
+		4. $writememb
+			--> it is used to retrive/ read the binary data from the memory 
+					syntax: 
+						$writememb("output.bin",<target the memory>);
+
+
+	
+Q. Implement a task for consective writes and reads 
+
+
+
